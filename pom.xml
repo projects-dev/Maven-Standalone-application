@@ -36,12 +36,12 @@
 		<repository>
 			<id>releases</id>
 			<name>volvo</name>
-			<url>http://localhost:8081/repository/volvo-release/</url>
+			<url>http://ec2-35-154-32-125.ap-south-1.compute.amazonaws.com:8081/repository/standalone_release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>volvo</name>
-			<url>http://localhost:8081/repository/volvo-snapshot/</url>
+			<url>http://ec2-35-154-32-125.ap-south-1.compute.amazonaws.com:8081/repository/standalone_snapshot/</url>
 		</snapshotRepository>
 	 </distributionManagement>
 	 <repositories>
